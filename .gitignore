@@ -1,0 +1,11 @@
+# Variables privadas y claves API
+.env
+.env.*
+
+# Entornos virtuales de Python
+.venv/
+.venv-kokoro/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc

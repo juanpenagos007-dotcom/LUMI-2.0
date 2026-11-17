@@ -1,0 +1,20 @@
+# 1. Limpiar todo
+pip uninstall numpy torch pysentimiento transformers -y
+
+# 2. Instalar NumPy 1.x
+pip install "numpy<2.0"
+
+# 3. Instalar PyTorch CPU
+pip install torch==2.0.1 --index-url https://download.pytorch.org/whl/cpu
+
+# 4. Instalar transformers
+pip install transformers==4.30.0
+
+# 5. Instalar telegram bot
+pip install python-telegram-bot==20.7
+
+# 6. Configurar token (REEMPLAZA con tu token real)
+$env:TELEGRAM_TOKEN="TU_TOKEN_AQUI"
+
+# 7. Ejecutar bot
+python bot.
